@@ -121,3 +121,53 @@ button.loading {
   outline: none;
   padding: 1rem 0.5rem;
 }
+
+@media only screen and (max-width: 600px) {
+  .box {
+    background: #eee;
+    border-radius: 1rem;
+    padding: 2rem 2rem 1rem;
+    width: 350px;
+  }
+
+  .content {
+    margin: 1.8rem 0;
+  }
+
+  .quote-section .quote {
+    font-size: 1.4rem;
+    text-align: center;
+    word-break: break-all;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .box {
+    background: #eee;
+    border-radius: 1rem;
+    padding: 2rem 2rem 1rem;
+    width: 300px;
+  }
+
+  .content {
+    margin: 1.5rem 0;
+  }
+
+  .quote-section .quote {
+    font-size: 1.2rem;
+  }
+
+  .line .features {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 20px;
+  }
+
+  .features button {
+    font-size: 1rem;
+    padding: 0.8rem 0.5rem;
+    width: 100%;
+    margin: 20px 0;
+  }
+}
